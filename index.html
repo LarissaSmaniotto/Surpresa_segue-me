@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe Gráfica - Segue-me 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #B2E0F5; /* Azul bebê bem clarinho */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-image: url('logo.jpg'); /* Adiciona a imagem como fundo */
+            background-size: cover; /* Faz a imagem cobrir toda a área */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Impede a repetição da imagem */
+        }
+
+        header {
+            background-color: rgba(0, 123, 255, 0.8); /* Fundo azul com transparência */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza o conteúdo */
+        }
+
+        h1, h2, p, ul {
+            text-align: center; /* Centraliza o texto */
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            color: #007BFF;
+            margin-top: 20px;
+        }
+
+        .sobre, .equipe {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 600px; /* Define a largura máxima */
+            width: 100%; /* Permite que o elemento se ajuste ao espaço disponível */
+        }
+
+        ul {
+            list-style-type: none; /* Remove os marcadores da lista */
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: rgba(0, 123, 255, 0.8); /* Fundo azul com transparência */
+            color: white;
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+            border-radius: 8px; /* Adiciona cantos arredondados */
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .sobre, .equipe {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Equipe Gráfica - Segue-me 2024</h1>
+        <p>Paróquia Sagrado Coração de Jesus - Catedral</p>
+    </header>
+    
+    <main>
+        <section class="sobre">
+            <h2>Querida equipe:</h2>
+            <p>Queridos Andreia, Tarciso, Wanderson, Eduardo, Lucas, Pamela, Suellen do David, David, Thiago e Valentina e Suellen...</p>
+            <p>Com o coração transbordando de gratidão, venho agradecer a cada um de vocês por todo o carinho e dedicação que ofereceram durante nosso servir neste encontro do II Segue-me da Catedral. Foi maravilhoso ver como Deus agiu por meio de cada um de vocês, para que tudo desse certo.</p>
+            <!-- Adicionando a imagem aqui -->
+            <img src="foto.jpeg" alt="Foto da Equipe">
+        </section>
+        
+        <section class="equipe">
+            <h2>Nossa Equipe</h2>
+            <ul>
+                <li>Andreia e Tarciso - Casal Coordenador</li>
+                <li>Wanderson - Jovem Coordenador</li>
+                <li>Larissa - Jovem Coordenador</li>
+                <li>Eduardo - Jovem</li>
+                <li>Lucas - Jovem</li>
+                <li>Pamela - Jovem</li>
+                <li>Suellen e David - Casal Apoio</li>
+                <li>Suellen - Jovem</li>
+                <li>Thiago - Jovem</li>
+                <li>Valentina - Jovem</li>
+            </ul>
+        </section>
+        
+        <section class="equipe">
+            <h2>Obrigada Equipe!</h2>
+            <p>Com carinho, Larissa Samaniotto.</p>
+        </section> 
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Paróquia Sagrado Coração de Jesus - Catedral. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
